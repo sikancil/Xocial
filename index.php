@@ -16,7 +16,7 @@
 <div class='header'>
     <div class='head'>
         <div class='logo'>Xocial</div>
-        <div class='slogan'>Russian hackers are so creative. Больше так не делайте ;)</div>
+        <div class='slogan'>is Koding Social</div>
         <div class='auth'>
             <? include "modules/auth.php"; ?>
         </div>
