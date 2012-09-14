@@ -5,7 +5,7 @@ set_time_limit(0);
 
 require_once "../core/classes/core.class.php";
 require_once "../core/classes/mysql.class.php";
-$mysql = new mysql("mysql0.db.koding.com", "creaturemyst_fea", "postal", "creaturemyst_fea");
+$mysql = new mysql("host", "user", "pass", "database");
 
 function checkNewMsg($mysql, $last_id = 0) {
     $count = $mysql->getFromQuery("SELECT COUNT(id) FROM msg");
