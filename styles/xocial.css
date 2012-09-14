@@ -1,0 +1,33 @@
+/* Login Button */
+.lbtn-container { width: 60px; height: 20px; overflow: hidden; border: 1px solid #999; border-radius: 3px; position: relative; cursor: default; }
+.lbtn-container .lbtn-hidden { width: 100px; height: 20px; }
+.lbtn-left, .lbtn-container .lbtn-right {
+    width: 30px; height: 20px; float: left; text-align: center; font-weight: bold;
+}
+.lbtn-center {
+    width: 30px; height: 20px; cursor: pointer; float: left; background-color: #999;
+}
+.lbtn-center:hover { background-color: #777; }
+.lbtn-left {
+    color: #999;
+    background: rgb(234,234,234); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(234,234,234,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(234,234,234,1)), color-stop(100%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(234,234,234,1) 0%,rgba(204,204,204,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(234,234,234,1) 0%,rgba(204,204,204,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(234,234,234,1) 0%,rgba(204,204,204,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(234,234,234,1) 0%,rgba(204,204,204,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+}
+.lbtn-right {
+    color: #ebebeb;
+    background: rgb(172,204,229); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(172,204,229,1) 0%, rgba(137,165,181,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(172,204,229,1)), color-stop(100%,rgba(137,165,181,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(172,204,229,1) 0%,rgba(137,165,181,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(172,204,229,1) 0%,rgba(137,165,181,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(172,204,229,1) 0%,rgba(137,165,181,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(172,204,229,1) 0%,rgba(137,165,181,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#accce5', endColorstr='#89a5b5',GradientType=0 ); /* IE6-9 */
+}
+#lbtn-check { display: none; }
